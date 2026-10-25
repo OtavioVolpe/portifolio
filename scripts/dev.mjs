@@ -4,6 +4,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = new URL('../', import.meta.url);
 const routes = new Map([
+  ['/urbano.html', ['urbano.html', 'text/html; charset=utf-8']],
+  ['/urbano.css', ['urbano.css', 'text/css; charset=utf-8']],
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
   ['/styles.css', ['styles.css', 'text/css; charset=utf-8']],
@@ -21,4 +23,5 @@ const server = createServer(async (req, res) => {
   }
 });
 server.on('error', (error) => { console.error(error.message); process.exitCode = 1; });
-server.listen(5173, '127.0.0.1', () => console.log('Local: http://127.0.0.1:5173'));
+const port = Number(process.env.PORT || 5173);
+server.listen(port, '127.0.0.1', () => console.log(`Local: http://127.0.0.1:${port}`));

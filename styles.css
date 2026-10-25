@@ -10,23 +10,19 @@ a:focus-visible { outline: 2px solid var(--green); outline-offset: 6px; }
 .header { min-height: 108px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); gap: 24px; }
 .brand { font: 700 38px 'Space Grotesk', sans-serif; letter-spacing: -3px; }
 .brand span { color: var(--green); }
-.header-label, .eyebrow, .technologies > span, .visual-top, .visual-bottom, footer { font-family: monospace; font-size: 11px; letter-spacing: 1px; }
+.header-label, .eyebrow, .visual-top, .visual-bottom, footer { font-family: monospace; font-size: 11px; letter-spacing: 1px; }
 .header-label { color: var(--muted); }
 .github { font-size: 14px; }
 .github span[aria-hidden] { color: var(--green); margin-left: 16px; }
 .hero { display: grid; grid-template-columns: 1.5fr 1fr; align-items: center; gap: 6%; min-height: calc(100svh - 190px); padding: 72px 0; }
 .eyebrow { display: flex; align-items: center; gap: 12px; font-size: 11px; margin: 0 0 30px; }
 .dot { width: 7px; height: 7px; background: var(--green); border-radius: 50%; }
-h1 { font: 500 clamp(42px, 5.4vw, 78px)/1.08 'Space Grotesk', sans-serif; letter-spacing: -0.065em; margin: 0 0 30px; }
+h1 { font: 700 clamp(64px, 8.2vw, 118px)/0.95 'Space Grotesk', sans-serif; letter-spacing: -0.065em; margin: 0 0 30px; }
 h1 > span { color: var(--green); }
 .role { font-size: 21px; font-weight: 500; margin: 0 0 14px; }
 .description { color: var(--muted); line-height: 1.8; max-width: 450px; font-size: 15px; margin: 0 0 28px; }
 .button { display: inline-flex; align-items: center; justify-content: space-between; gap: 34px; padding: 17px 22px; background: var(--green); color: #14200b; border-radius: 4px; font-weight: 700; font-size: 14px; transition: background .18s, transform .18s; }
 .button:hover { background: #d5ff91; transform: translateY(-2px); }
-.technologies { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 42px; color: var(--muted); }
-.technologies > span { font-size: 9px; }
-.technologies ul { display: flex; gap: 10px; padding: 0; margin: 0; list-style: none; }
-.technologies li { font-size: 12px; border: 1px solid var(--line); padding: 7px 11px; border-radius: 4px; }
 .visual { min-width: 0; aspect-ratio: .91; max-height: 480px; position: relative; overflow: hidden; border: 1px solid #343d2e; border-radius: 8px; background: radial-gradient(ellipse at 50% 45%, #25351c 0, transparent 65%), #141913; display: flex; flex-direction: column; justify-content: space-between; padding: 25px; }
 .visual::before { content: ''; position: absolute; inset: 0; opacity: .4; background-image: linear-gradient(#667b471a 1px, transparent 1px), linear-gradient(90deg, #667b471a 1px, transparent 1px); background-size: 32px 32px; pointer-events: none; }
 .visual-top, .visual-bottom { position: relative; color: #b0ba9f; letter-spacing: .7px; font-size: 9px; }
@@ -48,5 +44,5 @@ footer { border-top: 1px solid var(--line); min-height: 82px; display: flex; ali
 .skip-link:focus { top: 16px; }
 @media (min-width: 1600px) { .hero { min-height: 710px; } }
 @media (max-width: 900px) { .hero { gap: 30px; } .visual { padding: 18px; } .visual-bottom b { padding: 0; } .visual-top, .visual-bottom { font-size: 8px; letter-spacing: 0; } .footer-note { display: none; } }
-@media (max-width: 700px) { .page { padding: 0 7%; } .header { min-height: 84px; } .header-label { font-size: 8px; letter-spacing: .5px; } .brand { font-size: 32px; } .hero { grid-template-columns: 1fr; padding: 52px 0 40px; gap: 42px; } h1 { font-size: clamp(36px, 9vw, 62px); } .eyebrow { font-size: 9px; } .role { font-size: 19px; } .visual { width: 100%; aspect-ratio: 1.25; max-height: 350px; padding: 24px; } .orbit { width: 53%; } .code-mark { font-size: 64px; } .visual-top, .visual-bottom { font-size: 9px; } footer { flex-wrap: wrap; padding: 24px 0; min-height: 82px; gap: 12px; } }
+@media (max-width: 700px) { .page { padding: 0 7%; } .header { min-height: 84px; } .header-label { font-size: 8px; letter-spacing: .5px; } .brand { font-size: 32px; } .hero { grid-template-columns: 1fr; padding: 52px 0 40px; gap: 42px; } h1 { font-size: clamp(64px, 17vw, 100px); } .eyebrow { font-size: 9px; } .role { font-size: 19px; } .visual { width: 100%; aspect-ratio: 1.25; max-height: 350px; padding: 24px; } .orbit { width: 53%; } .code-mark { font-size: 64px; } .visual-top, .visual-bottom { font-size: 9px; } footer { flex-wrap: wrap; padding: 24px 0; min-height: 82px; gap: 12px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
