@@ -4,6 +4,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = new URL('../', import.meta.url);
 const routes = new Map([
+  ['/assets/dayvilo.png', ['assets/dayvilo.png', 'image/png']],
+  ['/assets/jaraujo.png', ['assets/jaraujo.png', 'image/png']],
   ['/urbano.html', ['urbano.html', 'text/html; charset=utf-8']],
   ['/urbano.css', ['urbano.css', 'text/css; charset=utf-8']],
   ['/', ['index.html', 'text/html; charset=utf-8']],

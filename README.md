@@ -4,7 +4,11 @@ Portfólio pessoal em desenvolvimento, construído em etapas pequenas e versiona
 
 ## Etapa 1
 
-Tela de apresentação responsiva, identidade escura com verde, tecnologias e link para o GitHub. Apresentação como desenvolvedor de software, sem limitar a uma área.
+Tela de apresentação responsiva, identidade escura com verde e link para o GitHub. Apresentação como desenvolvedor de software, sem limitar a uma área.
+
+## Etapa 2 — Projetos
+
+Seção com Dayvilo e J Araujo, capturas reais das páginas públicas, descrições e links externos. As imagens estão em `assets/` e podem ser atualizadas quando os projetos mudarem. O botão inicial e o link no cabeçalho levam à seção. As descrições apresentam os produtos; detalhes de participação e tecnologias serão adicionados após confirmação do autor.
 
 ## Rodar localmente
 
@@ -28,7 +32,7 @@ As fontes DM Sans e Space Grotesk vêm do Google Fonts. Sem conexão, a página 
 ## Próximas etapas
 
 1. Ajustar a apresentação após revisão visual.
-2. Apresentar Dayvilo e o portfólio do stylist com imagens e contexto real.
+2. Detalhar a participação nos projetos e adicionar a seção de tecnologias.
 3. Adicionar sobre e canais de contato escolhidos pelo autor.
 4. Preparar a publicação.
 
