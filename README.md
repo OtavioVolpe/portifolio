@@ -10,6 +10,10 @@ Tela de apresentação responsiva, identidade escura com verde e link para o Git
 
 Seção com Dayvilo e J Araujo, capturas reais das páginas públicas, descrições e links externos. As imagens estão em `assets/` e podem ser atualizadas quando os projetos mudarem. O botão inicial e o link no cabeçalho levam à seção. As descrições apresentam os produtos; detalhes de participação e tecnologias serão adicionados após confirmação do autor.
 
+## Etapa 3 — Tecnologias
+
+JavaScript e MySQL em destaque, com HTML/CSS e Git/GitHub contextualizados neste portfólio. Seção acessível pelo menu, responsiva e sem escalas de proficiência. Não atribui tecnologias a projetos cuja implementação ainda não foi confirmada.
+
 ## Rodar localmente
 
 Requer Node.js 20 ou superior. Não há dependências para instalar.
@@ -32,10 +36,10 @@ As fontes DM Sans e Space Grotesk vêm do Google Fonts. Sem conexão, a página 
 ## Próximas etapas
 
 1. Ajustar a apresentação após revisão visual.
-2. Detalhar a participação nos projetos e adicionar a seção de tecnologias.
+2. Detalhar a participação nos projetos.
 3. Adicionar sobre e canais de contato escolhidos pelo autor.
-4. Preparar a publicação.
+4. Revisar acessibilidade, desempenho e apresentação ao compartilhar o site.
 
 ## Fluxo de trabalho
 
-As alterações são preparadas e verificadas em pequenos lotes. O autor revisa e executa commit e push. Esta primeira etapa ainda não publica o site.
+As alterações são preparadas e verificadas em pequenos lotes. O autor revisa e executa commit e push. O GitHub Pages publica automaticamente a branch `main` em https://otaviovolpe.github.io/portifolio/.
