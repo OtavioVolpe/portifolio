@@ -18,6 +18,10 @@ JavaScript e MySQL em destaque, com HTML/CSS e Git/GitHub contextualizados neste
 
 Apresentação pessoal com abertura a diferentes áreas do desenvolvimento e interesses compartilhados pelo autor: futebol, muay thai, música e conversas, apresentados somente no texto. A seção não inclui formação, tempo de experiência ou histórico profissional não confirmados. Link "Sobre" no menu, com navegação em duas linhas nas telas pequenas.
 
+## Etapa 5 — Contato
+
+Seção “Vamos conversar?” com e-mail em destaque e links diretos para WhatsApp, LinkedIn e Instagram, escolhidos pelo autor. O WhatsApp usa o código do Brasil (+55). Link “Contato” no menu e disposição adaptada para celular. O e-mail abre o aplicativo de e-mail; os demais canais abrem em uma nova aba.
+
 ## Rodar localmente
 
 Requer Node.js 20 ou superior. Não há dependências para instalar.
@@ -41,8 +45,7 @@ As fontes DM Sans e Space Grotesk vêm do Google Fonts. Sem conexão, a página 
 
 1. Ajustar a apresentação após revisão visual.
 2. Detalhar a participação nos projetos.
-3. Adicionar canais de contato escolhidos pelo autor.
-4. Revisar acessibilidade, desempenho e apresentação ao compartilhar o site.
+3. Revisar acessibilidade, desempenho e apresentação ao compartilhar o site.
 
 ## Fluxo de trabalho
 

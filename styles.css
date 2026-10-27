@@ -91,7 +91,26 @@ footer { border-top: 1px solid var(--line); min-height: 82px; display: flex; ali
 .about-body > p { color: var(--muted); font-size: 15px; line-height: 1.85; margin: 0 0 20px; }
 .about-body > .about-lead { font: 500 clamp(22px, 2.2vw, 30px)/1.4 'Space Grotesk', sans-serif; letter-spacing: -.6px; color: var(--text); margin-bottom: 24px; }
 @media (max-width: 700px) { .about { grid-template-columns: 1fr; gap: 32px; padding: 48px 0 60px; } .about-body { max-width: none; } }
-@media (max-width: 480px) { .header { flex-wrap: wrap; padding: 14px 0; row-gap: 4px; } .main-nav { order: 3; flex-basis: 100%; justify-content: center; gap: 24px; } }
+.contact { display: grid; grid-template-columns: 1fr 1.25fr; gap: 7%; padding: 76px 0 90px; border-top: 1px solid var(--line); scroll-margin-top: 24px; }
+.contact-heading .eyebrow { margin-bottom: 24px; }
+.contact h2 { font: 500 clamp(46px, 5.5vw, 78px)/1.04 'Space Grotesk', sans-serif; letter-spacing: -.055em; margin: 0 0 24px; }
+.contact h2 span { color: var(--green); }
+.contact-heading > p:last-child { max-width: 350px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.85; }
+.contact-links { min-width: 0; }
+.contact-email { display: block; padding: 26px; margin-bottom: 12px; border: 1px solid #414e32; border-radius: 8px; background: #1b2415; transition: background .18s; }
+.contact-email:hover { background: #25351c; }
+.contact-label { display: block; margin-bottom: 16px; font: 10px monospace; letter-spacing: 1px; color: var(--muted); }
+.contact-address { display: flex; justify-content: space-between; align-items: center; gap: 12px; color: var(--green); font: 500 clamp(18px, 2vw, 27px)/1.4 'Space Grotesk', sans-serif; letter-spacing: -.5px; overflow-wrap: anywhere; }
+.contact-address > span { flex-shrink: 0; }
+.contact-link { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.contact-link > span:first-child { display: grid; gap: 6px; }
+.contact-name { font: 500 21px 'Space Grotesk', sans-serif; letter-spacing: -.4px; }
+.contact-detail { font-size: 13px; color: var(--muted); }
+.contact-arrow { color: var(--green); font-size: 24px; transition: transform .18s; }
+.contact-link:hover .contact-name { color: var(--green); }
+.contact-link:hover .contact-arrow { transform: translate(2px, -2px); }
+@media (max-width: 700px) { .contact { grid-template-columns: 1fr; gap: 32px; padding: 48px 0 60px; } .contact-email { padding: 22px 18px; } }
+@media (max-width: 480px) { .header { flex-wrap: wrap; padding: 14px 0; row-gap: 4px; } .main-nav { order: 3; flex-basis: 100%; justify-content: space-between; gap: 12px; } }
 @media (min-width: 1600px) { .hero { min-height: 710px; } }
 @media (max-width: 900px) { .hero { gap: 30px; } .visual { padding: 18px; } .visual-bottom b { padding: 0; } .visual-top, .visual-bottom { font-size: 8px; letter-spacing: 0; } .footer-note { display: none; } }
 @media (max-width: 700px) { .page { padding: 0 7%; } .header { min-height: 84px; } .header-label { font-size: 8px; letter-spacing: .5px; } .brand { font-size: 32px; } .hero { grid-template-columns: 1fr; padding: 52px 0 40px; gap: 42px; } h1 { font-size: clamp(64px, 17vw, 100px); } .eyebrow { font-size: 9px; } .role { font-size: 19px; } .visual { width: 100%; aspect-ratio: 1.25; max-height: 350px; padding: 24px; } .orbit { width: 53%; } .code-mark { font-size: 64px; } .visual-top, .visual-bottom { font-size: 9px; } footer { flex-wrap: wrap; padding: 24px 0; min-height: 82px; gap: 12px; } }
