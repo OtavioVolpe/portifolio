@@ -14,6 +14,10 @@ Seção com Dayvilo e J Araujo, capturas reais das páginas públicas, descriç�
 
 JavaScript e MySQL em destaque, com HTML/CSS e Git/GitHub contextualizados neste portfólio. Seção acessível pelo menu, responsiva e sem escalas de proficiência. Não atribui tecnologias a projetos cuja implementação ainda não foi confirmada.
 
+## Etapa 4 — Sobre mim
+
+Apresentação pessoal com abertura a diferentes áreas do desenvolvimento e interesses compartilhados pelo autor: futebol, muay thai, rap/trap e conversas. A seção não inclui formação, tempo de experiência ou histórico profissional não confirmados. Link "Sobre" no menu, com navegação em duas linhas nas telas pequenas.
+
 ## Rodar localmente
 
 Requer Node.js 20 ou superior. Não há dependências para instalar.
@@ -37,7 +41,7 @@ As fontes DM Sans e Space Grotesk vêm do Google Fonts. Sem conexão, a página 
 
 1. Ajustar a apresentação após revisão visual.
 2. Detalhar a participação nos projetos.
-3. Adicionar sobre e canais de contato escolhidos pelo autor.
+3. Adicionar canais de contato escolhidos pelo autor.
 4. Revisar acessibilidade, desempenho e apresentação ao compartilhar o site.
 
 ## Fluxo de trabalho
