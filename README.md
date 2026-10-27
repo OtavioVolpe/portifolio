@@ -16,7 +16,7 @@ JavaScript e MySQL em destaque, com HTML/CSS e Git/GitHub contextualizados neste
 
 ## Etapa 4 — Sobre mim
 
-Apresentação pessoal com abertura a diferentes áreas do desenvolvimento e interesses compartilhados pelo autor: futebol, muay thai, rap/trap e conversas. A seção não inclui formação, tempo de experiência ou histórico profissional não confirmados. Link "Sobre" no menu, com navegação em duas linhas nas telas pequenas.
+Apresentação pessoal com abertura a diferentes áreas do desenvolvimento e interesses compartilhados pelo autor: futebol, muay thai, música e conversas, apresentados somente no texto. A seção não inclui formação, tempo de experiência ou histórico profissional não confirmados. Link "Sobre" no menu, com navegação em duas linhas nas telas pequenas.
 
 ## Rodar localmente
 
