@@ -12,7 +12,7 @@ Seção com Dayvilo e J Araujo, capturas reais das páginas públicas, descriç�
 
 ## Etapa 3 — Tecnologias
 
-JavaScript e MySQL em destaque, com HTML/CSS e Git/GitHub contextualizados neste portfólio. Seção acessível pelo menu, responsiva e sem escalas de proficiência. Não atribui tecnologias a projetos cuja implementação ainda não foi confirmada.
+Grade com Angular, CSS, Git, GitHub, HTML, Java, JavaScript, Kanban, Looker, MySQL, PostgreSQL, Power BI, Python, Quarkus, REST API, Scrum, Spring, TypeScript. Todas as habilidades têm o mesmo tratamento visual e aparecem em ordem alfabética, sem priorizar uma tecnologia. Seção acessível pelo menu, responsiva e sem escalas de proficiência. Não atribui tecnologias a projetos cuja implementação ainda não foi confirmada.
 
 ## Etapa 4 — Sobre mim
 
